@@ -1,0 +1,2 @@
+# Todo
+- install rustup / cargo + rust_analyzer llvm_cov
