@@ -20,3 +20,4 @@ pushd "%CD%"
 CD /D "%~dp0"
 
 choco install -y neovim git ripgrep wget fd unzip gzip mingw make firefox lazygit
+pause

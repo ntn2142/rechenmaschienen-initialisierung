@@ -20,7 +20,8 @@ pushd "%CD%"
 CD /D "%~dp0"
 
 :: download installer
-wget https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe
+wget https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe --no-check-certificate
 :: run installer
-.\rustup-init.exe -vy
+.\rustup-init.exe
 DEL ".\rustup-init.exe"
+pause

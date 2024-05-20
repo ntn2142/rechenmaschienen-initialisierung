@@ -27,3 +27,4 @@ SET DIR=%~dp0%
 %systemroot%\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "& '%DIR%install.ps1' %*"
 ::delete install.ps1
 DEL "%DIR%install.ps1"
+pause
