@@ -24,4 +24,3 @@ wget https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init
 :: run installer
 .\rustup-init.exe
 DEL ".\rustup-init.exe"
-pause
